@@ -46,8 +46,8 @@ if mode == "encrypt":
             encrypted=encrypt(i)
             key.append(encrypted[0])
             ciphertext.append(encrypted[1])
-        st.write("ciphertext:"+" ".join(ciphertext))
-        st.write("key:"+"".join(key))
+        st.write("ciphertext:  "+" ".join(ciphertext))
+        st.write("key:  "+"".join(key))
 elif mode== "decrypt":
     ciphertext=st.text_input("insert ciphertext")
     key=st.text_input("insert key")
